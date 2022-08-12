@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 23)
 
 set(SOURCE_FILES
     src/main.cpp
-    )
+    src/application.cpp src/application.h)
 
 add_executable(engine_x ${SOURCE_FILES})
 
